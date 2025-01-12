@@ -160,7 +160,7 @@ if(!isset($_SESSION['user'])) {
                         <div class="col-md-6 mb-3">  
                             <label for="nome" class="form-label">Nome do Município</label>  
                             <div class="input-group">  
-                                <input type="text" class="form-control" id="nome" name="nome" required readonly>  
+                                <input style="background: #dddddd;" type="text" class="form-control" id="nome" name="nome" required readonly>  
                                 <input type="hidden" id="codigo_ibge" name="codigo_ibge">  
                                 <input type="hidden" id="municipio_uf" name="municipio_uf"> 
                                 <button class="btn btn-outline-primary" type="button" id="btnBuscarMunicipio">  
