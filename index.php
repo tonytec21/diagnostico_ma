@@ -12,13 +12,12 @@ if(!isset($_SESSION['user'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <meta name="description" content="Sistema de Diagnóstico de Municípios do Maranhão">  
     <meta name="keywords" content="municípios, maranhão, diagnóstico, gestão municipal">  
-    <meta name="author" content="Sua Empresa">  
+    <meta name="author" content="Regular">  
     <meta name="theme-color" content="#2196F3">  
-    
     <title>Diagnóstico Municípios MA</title>  
     
     <!-- Favicon -->  
-    <link rel="icon" href="favicon.ico" type="image/x-icon">  
+    <link rel="icon" href="favicon_branco.png" type="image/x-icon">  
     
     <!-- CSS -->  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">  
