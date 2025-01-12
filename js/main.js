@@ -224,7 +224,7 @@ function updateTable(municipios) {
             <td>${parseInt(municipio.numero_habitantes).toLocaleString()}</td>  
             <td>${parseInt(municipio.quantidade_domicilios).toLocaleString()}</td>  
             <td>${municipio.nome_prefeito}</td>  
-            <td>${municipio.situacao_politica}</td>  
+            <td>${municipio.situacao_politica.charAt(0).toUpperCase() + municipio.situacao_politica.slice(1).toLowerCase()}</td> 
             <td>${parseInt(municipio.quantidade_titulos_entregues).toLocaleString()}</td>  
             <td>${municipio.secretaria_reg_fundiaria == 1 ? 'Sim' : 'Não'}</td>  
             <td>${municipio.empresa_reurb == 1 ? 'Sim' : 'Não'}</td>  
